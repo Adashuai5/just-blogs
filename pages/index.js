@@ -4,6 +4,7 @@ import { Row, Col, List } from 'antd'
 import { CalendarOutlined } from "@ant-design/icons";
 import Header from '../components/Header'
 import Author from '../components/Author'
+import Footer from '../components/Footer'
 import '../public/style/pages/index.css'
 
 
@@ -48,6 +49,7 @@ const Home = () => {
           <Author />
         </Col>
       </Row>
+      <Footer />
     </>
   )
 }
