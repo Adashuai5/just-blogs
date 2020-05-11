@@ -1,18 +1,16 @@
 import React from "react";
 import "../public/style/components/header.css";
-
 import { Row, Col, Menu } from "antd";
 import {
   HomeOutlined,
   UnorderedListOutlined,
   TagsOutlined,
-  GithubOutlined,
 } from "@ant-design/icons";
 
 const Header = () => (
   <div className="header">
     <Row type="flex" justify="center">
-      <Col xs={24} sm={24} md={10} lg={10} xl={10}>
+      <Col xs={24} sm={24} md={10} lg={15} xl={12}>
         <span className="header-logo">Ada</span>
         <span className="header-txt">专注前端开发。</span>
       </Col>
@@ -30,10 +28,6 @@ const Header = () => (
           <Menu.Item key="Tags">
             <TagsOutlined />
             Tags
-          </Menu.Item>
-          <Menu.Item key="Github">
-            <GithubOutlined />
-            Github
           </Menu.Item>
         </Menu>
       </Col>
